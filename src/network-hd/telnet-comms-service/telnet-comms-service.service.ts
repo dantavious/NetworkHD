@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { TelnetClient } from 'tnode-telnet-client';
+import { TelnetClient } from 'telnet-client';
 import { from, Observable } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
 
