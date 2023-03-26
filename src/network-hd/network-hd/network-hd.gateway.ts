@@ -9,7 +9,7 @@ import {
 
 import { Server, Socket } from 'socket.io';
 
-import { TelnetCommsService } from './telnet-comms-service.service';
+import { TelnetCommsServiceService  } from './telnet-comms-service.service';
 
 @WebSocketGateway()
 export class NetworkHDGateway
